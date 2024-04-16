@@ -1,0 +1,679 @@
+@media (max-width: 1670px) {
+  .header__nav {
+    margin-right: auto;
+  }
+
+  .contacts__blok {
+    flex-wrap: wrap;
+  }
+
+  .form__bloc {
+    display: flex;
+  }
+
+  .form__name,
+  .form__phone {
+    top: -20px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .header__container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .header__nav {
+    margin: 0;
+    padding-top: 24px;
+    width: 100%;
+    order: 3;
+  }
+
+  .header__nav .nav__list {
+    justify-content: center;
+  }
+
+  .gallery__img {
+    flex-wrap: wrap;
+  }
+
+  .gallery__list {
+    width: 100%;
+  }
+
+  .events-card__descr {
+    margin-bottom: 35px;
+  }
+
+  .contacts__blok {
+    flex-wrap: wrap;
+  }
+
+  .contacts__left {
+    margin-bottom: 30px;
+  }
+
+  .contacts__center {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header-logo {
+    width: 187px;
+  }
+
+  .header__container {
+    padding-top: 31px;
+  }
+
+  .header__nav {
+    padding-top: 22px;
+  }
+
+  .hero {
+    background-image: url("../img/fort-1024.jpg");
+  }
+
+  .hero__content {
+    padding-top: 102px;
+    padding-bottom: 101px;
+    max-width: 660px;
+  }
+
+  .hero__descr {
+    margin-bottom: 132px;
+  }
+
+  .gallery {
+    background-image: url("../img/g-fon-1024.jpg");
+  }
+
+  .gallery__title {
+    margin-bottom: 21px;
+  }
+
+  .gallery__img {
+    gap: 0;
+    justify-content: flex-start;
+  }
+
+  .gallery__list {
+    margin-bottom: 30px;
+  }
+
+  .gallery-img {
+    display: flex;
+    gap: 50px;
+  }
+
+  .catalog-card {
+    flex-direction: column;
+  }
+
+  .catalog-card__picture {
+    margin-bottom: 30px;
+  }
+
+  .catalog-card__descr {
+    margin-bottom: 2px;
+  }
+
+  .events {
+    padding-top: 16px;
+  }
+
+  .events-list {
+    gap: 27px;
+  }
+
+  .events__item {
+    width: calc((100% - (27px * 2)) / 3);
+  }
+
+  .events-card__text {
+    padding: 16px 34px 48px 34px;
+  }
+
+  .events-card__subtitle {
+    max-width: 100%;
+    text-align: right;
+    margin-bottom: 7px;
+  }
+
+  .events-card__caption {
+    margin-bottom: 7px;
+  }
+
+  .events-card__descr {
+    margin-bottom: 20px;
+  }
+
+  .projects {
+    padding-top: 45px;
+  }
+
+  .projects__descr {
+    margin-bottom: 19px;
+  }
+
+  .projects__aside {
+    gap: 27px;
+  }
+
+  .contacts {
+    padding-top: 42px;
+    padding-bottom: 40px;
+  }
+
+  .form__btn {
+    max-width: 344px;
+  }
+
+  .contacts__title {
+    margin-bottom: 6px;
+  }
+
+  .contacts__subtitle {
+    font-size: 14px;
+  }
+
+  .contacts__left {
+    margin-bottom: 25px;
+  }
+
+  .contacts__center {
+    margin-bottom: 29px;
+  }
+
+  .form__btn {
+    padding: 13px 40px;
+  }
+
+  .footer {
+    padding-bottom: 40px;
+  }
+
+  .social__vk {
+    width: 60px;
+    height: 60px;
+  }
+
+  .social__ok {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 990px) {
+  .nav__list {
+    gap: 44px;
+  }
+
+  .hero {
+    background-image: url("../img/fort-768.jpg");
+  }
+
+  .hero__content {
+    padding-top: 88px;
+    padding-bottom: 85px;
+    max-width: 580px;
+  }
+
+  .gallery {
+    background-image: url("../img/g-fon-768.jpg");
+  }
+
+  .gallery-img {
+    gap: 34px;
+  }
+
+  .catalog__descr {
+    margin-bottom: 41px;
+  }
+
+  .catalog-card__caption {
+    margin-bottom: 12px;
+  }
+
+  .catalog-card__subtitle {
+    margin-bottom: 7px;
+  }
+
+  .catalog-card__descr {
+    margin-bottom: 3px;
+  }
+
+  .events-list {
+    flex-wrap: wrap;
+  }
+
+  .events__item {
+    width: 100%;
+  }
+
+  .events-card {
+    width: 100%;
+  }
+
+  .events-card__text {
+    padding-bottom: 51px;
+    min-height: 327px;
+    align-items: end;
+  }
+
+  .events-card__subtitle {
+    width: 40%;
+    margin-bottom: 5px;
+  }
+
+  .events-card__caption {
+    margin-right: auto;
+    margin-bottom: 14px;
+  }
+
+  .events-card__link {
+    margin-top: auto;
+    margin-right: auto;
+  }
+
+  .projects {
+    padding-top: 41px;
+  }
+
+  .projects__descr {
+    margin-bottom: 27px;
+  }
+
+  .projects__caption {
+    margin-bottom: 29px;
+  }
+
+  .contacts__left {
+    margin-bottom: 23px;
+  }
+
+  .contacts__center {
+    margin-bottom: 10px;
+  }
+
+  .form {
+    margin-bottom: 19px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .form__bloc {
+    margin-bottom: 2px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .form__text,
+  .form__tel {
+    margin: 0;
+  }
+
+  .form__input {
+    width: 100%;
+    min-width: 324px;
+  }
+
+  .form__btn {
+    max-width: 322px;
+    padding: 13px 28px;
+  }
+}
+
+@media (max-width: 766px) {
+  .container {
+    padding: 0 40px;
+  }
+
+  .header__container {
+    padding-top: 31px;
+  }
+
+  .header__nav {
+    margin-bottom: 15px;
+  }
+
+  .nav__list {
+    gap: 30px;
+  }
+
+  .nav__link {
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .hero__title {
+    font-size: 65px;
+  }
+
+  .projects__aside-left {
+    background-image: url("../img/projects-1-320.png");
+  }
+
+  .projects__aside-right {
+    background-image: url("../img/projects-2-320.png");
+  }
+
+  .form__bloc {
+    flex-wrap: wrap;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 574px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header__container {
+    padding-top: 13px;
+  }
+
+  .header-logo {
+    width: 97px;
+  }
+
+  .header__nav {
+    margin-bottom: 11px;
+    padding-top: 4px;
+    width: 150%;
+  }
+
+  .button svg {
+    width: 18px;
+  }
+
+  .menu-wrapper {
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    order: 3;
+  }
+
+  .nav__list {
+    gap: 24px;
+  }
+
+  .nav__link {
+    font-size: 12px;
+  }
+
+  .hero {
+    background-image: url("../img/fort-320.jpg");
+  }
+
+  .hero__content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero__title {
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 87%;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .hero__descr {
+    margin-bottom: 39px;
+    max-width: 264px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 137%;
+  }
+
+  .hero__btn {
+    padding: 13px 18px;
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .descr {
+    font-size: 14px;
+  }
+
+  .about {
+    padding-top: 53px;
+    padding-bottom: 42px;
+  }
+
+  .about__title {
+    margin-bottom: 14px;
+  }
+
+  .gallery {
+    padding-top: 53px;
+    padding-bottom: 47px;
+    background-image: url("../img/g-fon-320.jpg");
+  }
+
+  .gallery__title {
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+
+  .gallery-img {
+    flex-direction: column;
+    gap: 26px;
+  }
+
+  .catalog {
+    padding-top: 52px;
+  }
+
+  .catalog__title {
+    margin-bottom: 16px;
+  }
+
+  .catalog__descr {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+
+  .catalig-item {
+    margin-bottom: 27px;
+  }
+
+  .catalog-card__picture {
+    margin-bottom: 20px;
+  }
+
+  .catalog-card__caption {
+    margin-bottom: 11px;
+    max-width: 285px;
+    font-size: 24px;
+    line-height: 123%;
+  }
+
+  .catalog-card__subtitle {
+    margin-bottom: 13px;
+  }
+
+  .catalog-card__descr {
+    font-size: 16px;
+  }
+
+  .events {
+    padding-top: 4px;
+    padding-bottom: 20px;
+  }
+
+  .events__title {
+    margin-bottom: 14px;
+  }
+
+  .events-list {
+    gap: 16px;
+  }
+
+  .events-card__text {
+    padding: 16px 18px 50px 22px;
+  }
+
+  .events-card__subtitle {
+    width: 70%;
+    margin-bottom: 13px;
+  }
+
+  .events-card__caption {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .events-card__descr {
+    margin-bottom: 50px;
+    font-size: 16px;
+  }
+
+  .events-card__link {
+    margin-top: -3px;
+    margin-left: 7px;
+  }
+
+  .projects {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .projects__title {
+    margin-bottom: 15px;
+  }
+
+  .projects__descr {
+    margin-bottom: 52px;
+    font-size: 16px;
+    line-height: 200%;
+    font-weight: 400;
+  }
+
+  .projects__caption {
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 178%;
+    font-weight: 600;
+  }
+
+  .projects__aside {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .projects__aside-left,
+  .projects__aside-right {
+    width: 290px;
+    height: 100px;
+  }
+
+  .contacts {
+    padding-top: 31px;
+    padding-bottom: 47px;
+    border-top: none;
+  }
+
+  .contacts__left {
+    margin-bottom: 15px;
+  }
+
+  .contacts__title {
+    margin-bottom: 1px;
+    font-size: 18px;
+  }
+
+  .form__bloc {
+    margin-bottom: 10px;
+  }
+
+  .form__input {
+    padding: 10px 24px;
+    min-width: 290px;
+    height: 40px;
+  }
+
+  .form__name,
+  .form__phone {
+    top: -18px;
+  }
+
+  .form__btn {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: -10px;
+    min-height: 40px;
+    min-width: 128px;
+    font-size: 0;
+  }
+
+  .form__btn_text::after {
+    content: "Заказать";
+    position: absolute;
+    top: 12px;
+    left: 33px;
+    font-size: 12px;
+  }
+
+  .contacts__title_right {
+    margin-bottom: 6px;
+    line-height: 178%;
+    font-weight: 400;
+  }
+
+  .contacts-social__what svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contacts-social__telg svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer {
+    padding-top: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer__container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .footer__logo {
+    padding-top: 15px;
+    order: 2;
+    width: 97px;
+  }
+
+  .footer__social {
+    justify-content: center;
+  }
+
+  .social__vk {
+    width: 50px;
+    height: 60px;
+  }
+
+  .social__ok {
+    width: 50px;
+    height: 60px;
+  }
+}
